@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Instansi Pemerintah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px;
+    }
+    header img {
+      width: 90px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin: 0;
+    }
+    .container {
+      margin: 20px auto;
+      max-width: 400px;
+    }
+    .link-btn {
+      display: block;
+      background: #0066cc;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .link-btn:hover {
+      background: #004d99;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo Instansi">
+    <h1>Instansi Pemerintah XYZ</h1>
+    <p>Link Layanan & Informasi Resmi</p>
+  </header>
+
+  <div class="container">
+    <a href="https://www.example.go.id" class="link-btn">🌐 Website Resmi</a>
+    <a href="https://wa.me/6281234567890" class="link-btn">📞 Layanan Publik</a>
+    <a href="https://lapor.go.id" class="link-btn">📝 Pengaduan Masyarakat</a>
+    <a href="https://instagram.com/example" class="link-btn">📷 Media Sosial</a>
+    <a href="mailto:info@example.go.id" class="link-btn">✉️ Kontak Kami</a>
+  </div>
+
+  <footer>
+    © 2025 Instansi Pemerintah XYZ - Semua Hak Dilindungi
+  </footer>
+</body>
+</html>
